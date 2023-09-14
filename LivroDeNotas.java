@@ -1,6 +1,13 @@
 public class LivroDeNotas{
-    String nomeDisciplina;
+   private String nomeDisciplina;
 
+   public String getNomeDisciplina(){
+    return nomeDisciplina;
+   }
+
+    public void setNomeDisciplina(String nomeDisciplina){
+        this.nomeDisciplina = nomeDisciplina;
+    }
     public void exibirMensagem(){
         System.out.printf("Bem vindo ao livro de notas de %s\n : " ,nomeDisciplina);
     }        

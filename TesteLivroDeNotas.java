@@ -5,6 +5,10 @@ public class TesteLivroDeNotas {
         var livroDeNotas = new LivroDeNotas(nomeDisciplina);
         //livroDeNotas.nomeDisciplina = nomeDisciplina;
         livroDeNotas.exibirMensagem();
+        //livroDeNotas.nomeDisciplina = "portugues";
+        getNomeDisciplina();
+        String nome = "ABC";
         System.out.println("Até logo");
+        livroDeNotas.setNomeDisciplina("portugues");
     }
 }
